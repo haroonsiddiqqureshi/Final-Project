@@ -1,0 +1,20 @@
+C:\Users\lenovo\Desktop\Workshop\Visual Studio\Final Project\bin\Debug\Final Project.exe.config
+C:\Users\lenovo\Desktop\Workshop\Visual Studio\Final Project\bin\Debug\Final Project.exe
+C:\Users\lenovo\Desktop\Workshop\Visual Studio\Final Project\bin\Debug\Final Project.pdb
+C:\Users\lenovo\Desktop\Workshop\Visual Studio\Final Project\obj\Debug\Final Project.csproj.AssemblyReference.cache
+C:\Users\lenovo\Desktop\Workshop\Visual Studio\Final Project\obj\Debug\Final Project.csproj.SuggestedBindingRedirects.cache
+C:\Users\lenovo\Desktop\Workshop\Visual Studio\Final Project\obj\Debug\Final_Project.Form1.resources
+C:\Users\lenovo\Desktop\Workshop\Visual Studio\Final Project\obj\Debug\Final_Project.Properties.Resources.resources
+C:\Users\lenovo\Desktop\Workshop\Visual Studio\Final Project\obj\Debug\Final Project.csproj.GenerateResource.cache
+C:\Users\lenovo\Desktop\Workshop\Visual Studio\Final Project\obj\Debug\Final Project.csproj.CoreCompileInputs.cache
+C:\Users\lenovo\Desktop\Workshop\Visual Studio\Final Project\obj\Debug\Final Project.exe
+C:\Users\lenovo\Desktop\Workshop\Visual Studio\Final Project\obj\Debug\Final Project.pdb
+C:\Users\lenovo\Desktop\Workshop\Visual Studio\Final Project\obj\Debug\Final_Project.ShopLaptop.resources
+C:\Users\lenovo\Desktop\Workshop\Visual Studio\Final Project\obj\Debug\Final_Project.ShopTablet.resources
+C:\Users\lenovo\Desktop\Workshop\Visual Studio\Final Project\bin\Debug\EPPlus.dll
+C:\Users\lenovo\Desktop\Workshop\Visual Studio\Final Project\bin\Debug\EPPlus.Interfaces.dll
+C:\Users\lenovo\Desktop\Workshop\Visual Studio\Final Project\bin\Debug\EPPlus.System.Drawing.dll
+C:\Users\lenovo\Desktop\Workshop\Visual Studio\Final Project\bin\Debug\Microsoft.IO.RecyclableMemoryStream.dll
+C:\Users\lenovo\Desktop\Workshop\Visual Studio\Final Project\bin\Debug\EPPlus.xml
+C:\Users\lenovo\Desktop\Workshop\Visual Studio\Final Project\bin\Debug\Microsoft.IO.RecyclableMemoryStream.xml
+C:\Users\lenovo\Desktop\Workshop\Visual Studio\Final Project\obj\Debug\Final Project.csproj.CopyComplete
