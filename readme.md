@@ -1,1 +1,1 @@
-![mermaid diagram](/diagrams/mermaid.svg)
+![mermaid diagram](./mermaid.svg)
