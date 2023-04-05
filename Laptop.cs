@@ -12,7 +12,7 @@ namespace Final_Project
         private string ram;
         private string disk;
         private string gpu;
-        public Laptop(string name,int price,string cpu, string ram, string disk, string gpu) : base(name,price)
+        public Laptop(string name, string color,int price,string cpu, string ram, string disk, string gpu) : base(name, color ,price)
         {
             this.cpu = cpu;
             this.ram = ram;    

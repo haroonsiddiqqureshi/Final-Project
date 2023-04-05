@@ -12,19 +12,13 @@ namespace Final_Project
     internal class Macbook : Device
     {
         private string chip;
-        private string color;
-        public Macbook(string name,int price, string chip, string color) : base(name,price)
+        public Macbook(string name, int price, string chip, string color) : base(name, color, price)
         {
             this.chip = chip;
-            this.color = color;
         }
         public string getChip()
         {
             return chip;
-        }
-        public string getColor()
-        {
-            return color;
         }
     }
 }

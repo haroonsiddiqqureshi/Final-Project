@@ -48,11 +48,12 @@ namespace Final_Project
         {
             ExcelPackage.LicenseContext = OfficeOpenXml.LicenseContext.Commercial;
             name = this.laptop2.Text;
+            color = null;
             cpu = this.comboCpu.SelectedItem.ToString();
             ram = this.comboRam.SelectedItem.ToString();
             disk = this.comboDisk.SelectedItem.ToString();
             gpu = this.comboGraphic.SelectedItem.ToString();
-            Laptop laptop = new Laptop(name, 35000, cpu, ram, disk, gpu);
+            Laptop laptop = new Laptop(name, color, 35000, cpu, ram, disk, gpu);
             var message = $"คุณสั่งชื้อ {laptop.getName()} \nโดยมี \ncpu: {laptop.getCPU()} \nram: {laptop.getRam()} \ndisk: {laptop.getDisk()} \ngpu:{laptop.getGPU()} \nในราคา: {laptop.getPrice()}";
 
             using (var package = new ExcelPackage(new FileInfo(@"C:\Users\lenovo\Desktop\Workshop\Visual Studio\Final Project\bin\Debug\data.xlsx")))
