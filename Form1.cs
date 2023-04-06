@@ -34,15 +34,14 @@ namespace Final_Project
                         this.dataGridView1.Rows.Add(value);
                     }
                 }
-             
             }
         }
 
         private void addLaptopToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            ShopLaptop shopLaptop1 = new ShopLaptop();
-            shopLaptop1.ShowDialog();
-            if (shopLaptop1.DialogResult == DialogResult.OK)
+            ShopLaptop shopLaptop = new ShopLaptop();
+            shopLaptop.ShowDialog();
+            if (shopLaptop.DialogResult == DialogResult.OK)
             {
                 ExcelPackage.LicenseContext = OfficeOpenXml.LicenseContext.Commercial;
                 using (ExcelPackage package = new ExcelPackage(new FileInfo(@"C:\Users\lenovo\Desktop\Workshop\Visual Studio\Final Project\bin\Debug\data.xlsx")))
