@@ -48,15 +48,8 @@ namespace Final_Project
                 {
                     ExcelWorksheet worksheet = package.Workbook.Worksheets["Sheet1"];
                     int lastUsedRow = worksheet.Dimension.End.Row;
-                    for (int row = 1; row <= lastUsedRow; row++)
-                    {
-                        string value = worksheet.Cells[row, 1].Value?.ToString();
-                        if (!string.IsNullOrEmpty(value))
-                        {
-                            this.dataGridView1.Rows.Add(value);
-                        }
-                    }
-
+                    string value = worksheet.Cells[lastUsedRow, 1].Value?.ToString();
+                    this.dataGridView1.Rows.Add(value);
                 }
             }
         }
@@ -72,15 +65,8 @@ namespace Final_Project
                 {
                     ExcelWorksheet worksheet = package.Workbook.Worksheets["Sheet1"];
                     int lastUsedRow = worksheet.Dimension.End.Row;
-                    for (int row = 1; row <= lastUsedRow; row++)
-                    {
-                        string value = worksheet.Cells[row, 1].Value?.ToString();
-                        if (!string.IsNullOrEmpty(value))
-                        {
-                            this.dataGridView1.Rows.Add(value);
-                        }
-                    }
-
+                    string value = worksheet.Cells[lastUsedRow, 1].Value?.ToString();
+                    this.dataGridView1.Rows.Add(value);
                 }
             }
         }
